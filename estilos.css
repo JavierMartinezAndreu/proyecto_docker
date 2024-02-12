@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: local('Raleway-Medium'), url('fonts/Raleway-Medium.ttf') format('truetype');
+}
+
+body {
+    font-family: Raleway-Medium;
+}
+
+svg.logo {
+    width: 150px;
+    fill: #1d63ed;
+    margin-left: 35px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #e1e2e6;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    font-weight: 500;
+    padding: 15px;
+    color: #505968;
+    font-size: 16px;
+    display: inline;
+    margin-right: 10px;
+}
+
+header>div>button {
+    color: black;
+    background-color: white;
+    border: 2px solid #c4c8d1;
+    padding: 13px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+header>div>button.signin-button:hover {
+    background-color: #efeff2;
+}
+
+header>div>button.getstarted-button:hover {
+    background-color: #0c49c2;
+    border-color: #0c49c2;
+}
+
+header>div>button.getstarted-button {
+    background-color: #1d63ed;
+    color: white;
+    border-color: #1d63ed;
+    padding: 13px 10px
+}
+
+.lupa-svg {
+    height: 17px;
+    width: 13pxs;
+    padding-right: 12px;
+    margin-top: 8px;
+}
+
+div.header-buttons {
+    justify-content: flex-end;
+}
